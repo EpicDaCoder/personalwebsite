@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@keyframes funnyRainbow {
+    0% {color: #d4a9a9}
+    15% {color: #d4c1a9}
+    30% {color: #d4d0a9}
+    45% {color: #aad4a9}
+    60% {color: #a9d4d0}
+    75% {color: #a9b6d4}
+    90% {color: #cfa9d4}
+    100% {color: #d4a9a9}
+}
+
+body {
+    margin: 0px;
+}
+
+#introduction {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    animation-name: funnyRainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #404242;
+    color: whitesmoke;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#description-main {
+    margin-top: 5%;
+    margin-left: 15%;   
+    margin-right: 15%;
+    font-size: 150%;
+}
+
+.more {
+    background-color: #404242;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#film, #art, #credits {
+    width: 20vw;
+    height: 4vh;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.navbar {
+    background-color: #747575;
+    text-align: right;
+    margin: 0% 0% 0% 0%;
+    padding: 2vh 2vw 2vh 2vw;
+}
+
+#navhome, #navfilm, #navart, #navcredits {
+    display: inline;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#gofundmepage {
+    text-decoration: underline;
+    color: #cfa9d4;
+}
+
+
+.wwspitch, #filmname {
+    text-align: center;
+    width: 50vw;
+    margin: auto;
+}
+
+#wwspitch {
+    margin-top: 0;
+    margin-bottom: 10vh;
+}
+
+#filmname {
+    margin-bottom: 0;
+    margin-top: 20vh;
+}
